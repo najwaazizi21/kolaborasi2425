@@ -3,10 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>page Nadila</title>
+    <title>Biodata Nadila</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      table {
+        border-collapse: collapse;
+        width: 50%;
+        background-color: #ffffff;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      }
+      table td, table th {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+      }
+      table tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      table th {
+        background-color: #4CAF50;
+        color: white;
+      }
+      .table-heading {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+      }
+    </style>
   </head>
   <body>
-    <center>
+    <div>
+      <div class="table-heading">Biodata Diri</div>
       <table>
         <tr>
           <td>Nama</td>
@@ -23,7 +60,27 @@
           <td>:</td>
           <td>Politeknik Caltex Riau</td>
         </tr>
+        <tr>
+          <td>Tanggal Lahir</td>
+          <td>:</td>
+          <td>12 Januari 2002</td>
+        </tr>
+        <tr>
+          <td>Alamat</td>
+          <td>:</td>
+          <td>Jl. Soekarno Hatta No. 10, Pekanbaru</td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>:</td>
+          <td>nadila@example.com</td>
+        </tr>
+        <tr>
+          <td>Hobi</td>
+          <td>:</td>
+          <td>Membaca, Menulis, Traveling</td>
+        </tr>
       </table>
-    </center>
+    </div>
   </body>
 </html>
